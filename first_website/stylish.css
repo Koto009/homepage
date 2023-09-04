@@ -1,0 +1,32 @@
+body {
+    background-color:#e7ad9a;
+    margin: 20px;
+    font-size: 20px; 
+}
+
+p {
+                color: peachpuff;
+                background-color: darkslategrey;
+                padding: 30px;
+                margin: 30px;
+                margin-top: 60 px;
+            }
+
+            li {
+                font-size: 20px;
+                color:hotpink; 
+}
+
+ol {
+    background-color:peachpuff;
+}
+
+#introduction {
+font-size: 60px;
+background-color: chocolate;
+}
+
+.introduction {
+  background-color: darkslategrey;  
+  border: 5px solid darkolivegreen;
+}
