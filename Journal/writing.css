@@ -1,5 +1,6 @@
 body{
 background-color: black;
+font-family: 'Courier New', Courier, monospace;
 }
 
 
@@ -9,8 +10,10 @@ h2{
 
 p{
     color:rgb(178, 148, 224);
-    padding: 30px;
-    margin: 30px;
-    margin-top: 60 px;
-    margin-right: 60px;
+    margin-left: 30px;
 } 
+details{
+    color: rgb(178, 148, 224);
+    margin-left: 60px;
+}
+
