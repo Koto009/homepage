@@ -1,3 +1,16 @@
 body{
     font-family: monospace;
+    color: aliceblue;
+    background-color: rgb(41, 41, 41);
+    
+}
+
+p {
+    width: 1000px;
+    font-size: x-large;
+    padding-top: 100px;
+    }
+a{
+    color:aliceblue;
+    font-size: large;
 }
