@@ -1,0 +1,14 @@
+body{
+    margin-left: 100px;
+    background-color: rgb(30, 26, 24);
+    /* background-color: rgb(46, 40, 37); */
+}
+
+h2{
+    color: rgb(195, 107, 212);
+    margin-left: 0px;
+}
+
+a{
+    color: rgb(252, 96, 255); 
+}
