@@ -7,6 +7,8 @@ background-color: rgb(67, 92, 76)
 
 .items {
     text-align: center;
+    align-items: center;
+  
     /* position: absolute;
     left: 50%;
     top: 50%;
