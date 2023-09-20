@@ -3,11 +3,12 @@ background-color: rgb(67, 92, 76)
 }
 /* a {
     color:rgb(234, 102, 124)
-} */
+ */
 
 .items {
     text-align: center;
     align-items: center;
+    display: flexbox;
   
     /* position: absolute;
     left: 50%;
