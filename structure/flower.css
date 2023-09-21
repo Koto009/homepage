@@ -136,3 +136,9 @@ width: 895px;
   width:200px;
   z-index:2;
 }
+
+.dog{
+  position: absolute;
+  width:100vw;
+  z-index: 5;
+}
