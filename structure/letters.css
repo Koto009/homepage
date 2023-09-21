@@ -6,17 +6,19 @@ body{
     justify-content: center;
     font-family: monospace;
     font-size: medium;
-    letter-spacing: 2px;
+    letter-spacing: 1.5 px;
+        line-height: 1.6;
 }
+
 
 a{
     color: rgb(71, 92, 136);
 }
 
 .letter{
-    width:35%;
-    height:800px;
-    border-radius: 25px;
+    width:30%;
+    height:700px;
+    border-radius: 15px;
     border:1px solid;
     display:flex;
     justify-content: center;
