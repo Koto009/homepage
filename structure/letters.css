@@ -1,0 +1,27 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    background-color: lavenderblush;
+    justify-content: center;
+    font-family: monospace;
+    font-size: medium;
+    letter-spacing: 2px;
+}
+
+a{
+    color: rgb(71, 92, 136);
+}
+
+.letter{
+    width:35%;
+    height:800px;
+    border-radius: 25px;
+    border:1px solid;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    background-color: antiquewhite;
+    padding-left: 100px;
+    padding-right: 100px;
+}
