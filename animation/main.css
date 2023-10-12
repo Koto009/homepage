@@ -1,0 +1,118 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    margin:0%;
+}
+
+.box{
+    background-color: rgb(92, 12, 28);
+    width: 300px;
+    height:300px;
+    /* animation-name:life;
+    animation-duration:1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear; */
+    
+    animation: life 3s infinite alternate linear 2s;
+}
+
+@keyframes life {
+    0%{
+        background-color: rgb(92, 12, 28);
+    }
+
+        100%{
+            background-color:pink;
+
+        }
+    
+}
+
+.container{
+    background-color: lightblue;
+    display:flex;
+    width:100vw;
+    height:100vh;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.circle{
+    background-color: darkgreen;
+    width:15vw;
+    height:15vw;
+    border-radius: 100%;
+    animation:pulse 3s infinite alternate ease-in-out;
+
+}
+
+@keyframes pulse{
+    0%{
+        background-color: darkgreen;
+        transform: scale(1);
+    }
+    100%{
+        background-color: lightyellow;
+        transform: scale(1.5);
+    }
+}
+
+.square{
+    background-color: darkgreen;
+    width:15vw;
+    height:15vw;
+    animation:spin 6s infinite linear;
+}
+
+@keyframes spin{
+    0%{
+        transform: rotate(0);
+
+    }
+    100%{
+        transform:rotate(360deg)
+    }
+}
+
+.mover{
+    /* background-color: darkgreen;
+    width:15vw;
+    height:3vw; */
+    position:fixed;
+    bottom:0;
+    left:0;
+    animation: move 6s infinite linear;
+}
+
+@keyframes move{
+    0%{
+        transform: translateX(-15vw);
+       opacity: 0;
+    }
+    100%{
+        transform: translateX(100vw);
+        opacity: 1;
+
+    }
+}
+
+.mover-shape{
+    background-color: darkgreen;
+    width:15vw;
+    height:3vw;
+    animation:grow 3s infinite alternate;
+}
+
+@keyframes grow {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(4);
+    }
+    100%{
+        transform: scale(2);
+    }
+}

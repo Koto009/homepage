@@ -1,0 +1,79 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    padding-left: 100px;
+    /* margin: 0; */
+    /* overflow: hidden; */
+    background-color: #000;
+}
+.rain-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90vw;
+    height: 100vh; 
+    pointer-events: none; 
+
+}
+
+.raindrop {
+   justify-content: space-between;
+    position:absolute;
+    width: 3px; 
+    height: 100px; 
+    background-color:white; 
+    animation: fall 2s linear infinite; 
+}
+.raindrop2 {
+    justify-content: space-between;
+     position:absolute;
+     width: 3px; 
+     height: 100px; 
+     background-color:white; 
+     animation: fall 4s linear infinite; 
+ }
+ .raindrop3 {
+     width: 3px; 
+     height: 100px; 
+     background-color:white; 
+     animation: fall 4s linear infinite; 
+ }
+
+.rain2{
+    position: absolute;
+    animation: fall 2s linear infinite; 
+}
+
+
+@keyframes fall {
+    0% {
+        transform: translateY(-80px) ; 
+        opacity: 0; 
+    }
+    100% {
+        transform: translateY(100vh) ; 
+        opacity: 1; 
+    }
+}
+
+
+.duck{
+    animation: ducky 3.5s linear infinite;
+}
+
+@keyframes ducky{
+    0%{
+        transform: translateY(-60px)   
+    }
+    100%{
+        transform: translateY(100vh) ;  
+    }
+
+
+}
+
+.duckr{
+    padding-left: 80%;
+    animation: ducky 3.5s linear infinite;
+}

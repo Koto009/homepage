@@ -1,0 +1,147 @@
+*{
+    box-sizing:border-box;
+}
+
+body{
+    background-color: antiquewhite;
+    margin-top: 0%;
+}
+h6{
+color: white;
+font-size: large;
+font-family: 'Courier New', Courier, monospace;
+text-align: center;
+align-items: center;
+display: flex;
+flex-direction: column;
+padding-left: 40px;
+padding-right: 40px;
+line-height: 2;
+}
+
+h5{
+    color: black;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    padding-right: 40px;
+    }
+.container {
+    width: 100vw;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.heart{
+    max-width: 100%;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    animation: pulse 2.5s infinite alternate ease-in-out;
+    /* position: relative; */
+
+}
+.words{
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    /* padding-bottom: 200px; */
+    /* bottom: 20vh; */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.say2, .say3, .say4, .say5, .say6, .say7 {
+    display: none;
+  }
+
+  @keyframes pulse{
+    0%{
+        transform: scale(.5);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+@media screen and (max-width: 1700px){
+    body{
+        background-color: pink;
+    }
+.say{
+    display: none;
+}
+.say2{
+    display: contents;
+}
+}
+
+
+@media screen and (max-width:1500px) {
+    body{
+        background-color: rgb(238, 136, 153);
+        
+    }
+    .say,.say2{
+        display: none;
+    }
+    .say3{
+        display: contents;
+    }
+    }
+
+    @media screen and (max-width:1300px) {
+        body{
+            background-color: rgb(136, 48, 62);
+            
+        }
+        .say,.say3{
+            display: none;
+        }
+        .say4{
+            display: contents;
+        }
+        }
+
+        @media screen and (max-width:900px) {
+            body{
+                background-color: black;
+                
+            }
+            .heart{
+                display: none;
+            }
+            .say,.say2,.say3,.say4{
+                display: none;
+            }
+            .say6{
+                display: contents;
+                /* padding-left: 30px;
+                padding-right: 30px; */
+            }
+            }
+
+            @media screen and (max-width:500px) {
+                body{
+                    background-color:white;
+                    
+                }
+                .say7{
+                    display: contents;
+                }
+                .heart{
+                    display: none;
+                }
+                .say,.say2,.say3,.say4,.say5,.say6{
+                    display: none;
+                }
+                }

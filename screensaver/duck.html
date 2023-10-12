@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Screensaver</title>
+        <link rel="stylesheet" href="ducks.css">
+    </head>
+    <body>
+        <!-- <audio autoplay loop> <source src="../imageh/Duck Quack Sound Effect.mp3" type="audio/mpeg"></audio> -->
+        <div class="fade" ></div>
+       
+        <div class="quack">
+        <button id="playButton">make them quack!</button>
+
+        <audio id="looping-audio" style="display: none;">
+            <source src="../imageh/Duck Quack Sound Effect.mp3" type="audio/mpeg">
+        </audio>
+    
+        <script>
+            const audio = document.getElementById("looping-audio");
+            const playButton = document.getElementById("playButton");
+    
+            playButton.addEventListener("click", function() {
+                audio.loop = true;
+                audio.play();
+                playButton.style.display = "none"; 
+            });
+        </script>
+        </div>
+       
+            <div class="rain-container">
+                <div class="duck"><img src="../imageh/ducky.png" width="60px"></div>   
+                <div class="duck1"><img src="../imageh/ducky.png" width="60px"></div>    
+                <div class="duck2"><img src="../imageh/ducky.png" width="60px"></div>
+                <div class="duck3"><img src="../imageh/ducky.png" width="60px"></div>    
+                <div class="duck4"><img src="../imageh/ducky.png" width="60px"></div>
+                <div class="duck5"><img src="../imageh/ducky.png" width="60px"></div>   
+                <div class="duck6"><img src="../imageh/ducky.png" width="60px"></div>    
+                <div class="duck7"><img src="../imageh/ducky.png" width="60px"></div>
+                <div class="duck8"><img src="../imageh/ducky.png" width="60px"></div>    
+                <div class="duck9"><img src="../imageh/ducky.png" width="60px"></div>
+                <div class="duck10"><img src="../imageh/ducky.png" width="60px"></div>
+                <div class="duck11"><img src="../imageh/ducky.png" width="60px"></div>    
+                <div class="duck12"><img src="../imageh/ducky.png" width="60px"></div>
+                <div class="duck13"><img src="../imageh/ducky.png" width="60px"></div>    
+                <div class="duck14"><img src="../imageh/ducky.png" width="60px"></div>
+                </div>
+                
+    </body>
+</html>

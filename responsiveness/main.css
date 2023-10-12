@@ -1,0 +1,21 @@
+*{
+    box-sizing:border-box;
+}
+
+img{
+    /* max-width:100%; */
+    max-width: 600px;
+}
+
+p{
+    background-color: pink;
+    padding:30px;
+    /* width: 50%; */
+    max-width:600px;
+}
+
+
+.featured-image{
+    width:100%;
+    max-width: 600px;
+}
