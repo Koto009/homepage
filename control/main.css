@@ -1,0 +1,47 @@
+*{
+    box-sizing:border-box;
+}
+
+body{
+    background-color: #F4C6F1;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.drag{
+    width: 100px;
+    height: 100px;
+    margin:50px;
+    column-count: 2;
+    column-span: 50px;
+}
+
+body {
+    background-image: url(pcbg.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    background-position: center;
+}
+
+h1 {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #03256D;
+    font-size: 50px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+p {
+    color:#6064c8;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.toppings {
+    cursor: grab;
+  
+}

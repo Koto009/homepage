@@ -1,0 +1,20 @@
+*{
+    box-sizing:border-box;
+}
+
+body{
+    background-color: khaki;
+}
+
+.defaults{
+    font-family:eniene, Helvetica, sans-serif 
+}
+
+.google{
+    font-family: 'Josefin Sans', serif;
+}
+
+.new-google{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normalw;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>javascript</title>
+        <link rel="stylesheet" href="main.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+<!-- first we set up the button that is triggering our javascript -->
+<!-- note that the element doesn't need to be a <button> to work -->
+    <button onclick="change()">Click me...</button>
+
+    <div id="background-image" class="bg"></div>
+
+    <!-- this is the element that we will be altering with our javascript -->
+    <div id="menu" class="sidebar">
+      Main Menu
+    </div>
+
+    <div id="spinner" class="square"></div>
+
+    <script>
+        // this is the function we want to call when the button is clicked
+        function change() {
+        //   first we set up a variable to store a longer line of code in case we want to reference it quickly later
+        //   here, we're creating a shorthand way of targeting a specific element with an id by using javascript's getElementById method
+          var menu = document.getElementById("menu");
+          var spinner = document.getElementById("spinner");
+          var backgroundImage = document.getElementById("background-image");
+        
+          // in this line we use javascript's built-in classList property and toggle method to toggle a class on and off
+          menu.classList.toggle("active");
+          spinner.classList.toggle("spin");
+          document.body.classList.toggle("dark");
+          backgroundImage.classList.toggle("reveal");
+        }
+        </script> 
+
+        
+    </body>
+</html> 
