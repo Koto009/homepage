@@ -9,6 +9,14 @@
   } */
   p{
     color: white;
+    max-width: 550px;
+    border: 2px solid white ;
+    justify-content: center;
+    padding: 20px;
+    font-family: monospace ;
+    line-height: 1.5;
+    /* padding-top: 50px; */
+    /* padding-bottom: 30px;  */
   }
 
   .row{

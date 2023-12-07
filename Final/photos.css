@@ -16,15 +16,7 @@ font-family: monospace;
 -webkit-text-size-adjust: none;
 padding-left: 50px;
 }
-/* .days a{
-    content: '';
-    background: rgb(246, 207, 237);
-    width: 10px;
-    height: 10px;
-    margin-left: 8px;
-    border-radius: 100%;
-    display: inline-block;
-} */
+
 
 .days a{
     border: 1px solid rgb(149, 29, 29);
