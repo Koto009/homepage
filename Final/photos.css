@@ -10,7 +10,8 @@ a{
 }
 
 body{
-font-family: 'dsfont', Fallback, 'Times New Roman', Times, serif;
+/* font-family: 'dsfont', Fallback, 'Times New Roman', Times, serif; */
+font-family: monospace;
 -webkit-font-smoothing: antialiased;
 -webkit-text-size-adjust: none;
 padding-left: 50px;
@@ -26,7 +27,7 @@ padding-left: 50px;
 } */
 
 .days a{
-    border: 1px solid rgb(38, 38, 183);
+    border: 1px solid rgb(149, 29, 29);
     height: 100px;
     width: 120px;
     padding: 10px;

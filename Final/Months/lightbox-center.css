@@ -24,7 +24,8 @@
   }
 
   .header{
-    padding: 20px;
+    padding: 30px;
+    /* padding-left: 200px; */
   }
   
   body{
@@ -132,7 +133,7 @@
   .prev:hover,
   .next:hover {
     background-color: rgb(255, 145, 0);
-    /* background-color: rgba(0, 0, 0, 0.8); */
+    
   }
   
   /* Number text (1/3 etc) */
@@ -160,7 +161,8 @@
   }
   
   .hover-shadow:hover {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    box-shadow: 0 4px 8px 0 rgb(255, 145, 0), 0 6px 20px 0 rgb(255, 145, 0);
   }
 
   .hover-shadow {
